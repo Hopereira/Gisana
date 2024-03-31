@@ -130,13 +130,21 @@
     text-align: right;
     margin-top: 15px;
 }
-h1 {
-    white-space: nowrap; 
-    font-size: 25%;
-    font-family: 'Loverine';
-    color: #724638;
-    text-align: center;
+
+.carousel-item img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.aviso{
+    display: flex;
+    justify-content: center;
     margin-top: 15px;
+    color: #724638;
 }
 
       /* Estilize o rodapé */
@@ -155,4 +163,14 @@ footer {
     footer a {
         color: #724638;
         text-decoration: none;
+    }
+    .footer-border {
+        background-image: url('./img/parte\ debaixo\ em\ PNG.png') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 50px;
+        border-top: 1px solid #724638;
+        margin-top: 20px;
     }
