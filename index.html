@@ -32,18 +32,26 @@
      
         <!-- menu 1 de procurar login e carrinho de compras -->
         
-        <div class="search-box">
-            <input type="text" class="search-input" placeholder="O que você procura..">
-            <button class="search-button">Buscar</button>
-                <div class="login">
-                    <a href="#" class="btn btn-link"><i class="fas fa-user"></i> Login</a> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="search-box">
+                        <input type="text" class="form-control search-input"  id="oquevc"  placeholder="O que você procura..">
+                        <button class="btn search-button" id="buscar">Buscar</button>
+                    </div>
                 </div>
-
-                <div class="carrinho">
-                    <a href="#" class="btn btn-link"><i class="fas fa-shopping-cart"></i> Carrinho</a> 
-               </div>
+                <div class="col-md-6" id="login-carinho">
+                    <div class="d-flex justify-content">
+                        <div class="login pr-3">
+                            <a href="#" class="btn btn-link"><i class="fas fa-user"></i> Login</a>
+                        </div>
+                        <div class="carrinho">
+                            <a href="#" class="btn btn-link"><i class="fas fa-shopping-cart"></i> Carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
 
 
 

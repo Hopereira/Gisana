@@ -31,12 +31,14 @@
     
   }
   .div-esquerda img {
+    margin-top: auto;
     max-width: 70%;
     height: auto;
     }
 
     .div-direita img {
         max-width: 100%;
+        text-align: center;
         height: auto;
   }
   .nome_principal {
@@ -44,12 +46,12 @@
     top: 0;
     left: 0;
     width: 100%;
-   font-size: 1.5rem;
+   font-size: 2.5dvw;
    font-family: 'loverine';
     padding: 2%;
     text-align: right;
     color: #724638;
-    margin-top: 15px;
+    margin-top: 1dvw;
   }
 .mascote{
     position: absolute;
@@ -64,25 +66,23 @@
 
 .search-box {
     display: flex;
-    align-items: center;
-    width: 60%;
-    border-radius: 5px;
-    padding: 5px;
-    margin-left: 20%;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 /* Estilize o input de pesquisa */
-.search-input {
+#oquevc {
     flex: 1;
     border: 1px solid #724638;
     border-radius: 10px;
     outline: none;
     padding: 5px;
     text-align: center;
+    margin-left: 75px;
 }
 
 /* Estilize o botão de pesquisa (ou imagem) */
-.search-button {
+#buscar {
     background-color: #724638;
     color: #fff;
     border: none;
@@ -91,18 +91,21 @@
     cursor: pointer;
     margin-left: 5px;
 }
-.search-button:hover {
+#buscar:hover {
     background-color:#FFD2E6;
     border: 1px solid #724638;
     color: #724638;
+}
+#login-carinho{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
 }
 .login a {
     
     top: 0;
     left: 0;
     width: 5%;
-    margin-top: 6%;
-    margin-left: 75%;
     color: #724638;
 }
 .login a:hover {
@@ -113,8 +116,6 @@
     top: 0;
     left: 0;
     width: 5%;
-    margin-top: 6%;
-    margin-left: 75%;
     color: #724638;
 }
 .carrinho a:hover {
@@ -130,7 +131,8 @@
     margin-top: 15px;
 }
 h1 {
-    font-size: 2rem;
+    white-space: nowrap; 
+    font-size: 25%;
     font-family: 'Loverine';
     color: #724638;
     text-align: center;
