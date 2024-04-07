@@ -73,12 +73,12 @@
 /* Estilize o input de pesquisa */
 #oquevc {
     flex: 1;
-    border: 1px solid #724638;
+    border: 2px solid #724638;
     border-radius: 10px;
     outline: none;
     padding: 5px;
     text-align: center;
-    margin-left: 75px;
+
 }
 
 /* Estilize o botão de pesquisa (ou imagem) */
@@ -105,7 +105,7 @@
     
     top: 0;
     left: 0;
-    width: 5%;
+
     color: #724638;
 }
 .login a:hover {
@@ -115,7 +115,7 @@
     
     top: 0;
     left: 0;
-    width: 5%;
+    
     color: #724638;
 }
 .carrinho a:hover {
